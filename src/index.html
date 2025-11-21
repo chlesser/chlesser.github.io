@@ -16,8 +16,6 @@
     />
     <title>Charles Lesser</title>
   </head>
-  <!-- Random Assorted JS-->
-     <script src="tabs.js"></script>
   <body>
     <canvas class="webgl"></canvas>
     <main>
@@ -75,7 +73,7 @@
           </div>
         </section>
         <div class="tab">
-          <button class="tablinks" onclick="openCity(event, 'Research')">Research</button>
+          <button class="tablinks" onclick="openCity(event, 'Research')" id="defaultOpen">Research</button>
           <button class="tablinks" onclick="openCity(event, 'Programming Projects')">Programming Projects</button>
           <button class="tablinks" onclick="openCity(event, 'Game Projects')">Game Projects</button>
         </div>
@@ -528,5 +526,6 @@
 
     <!-- <script type="module" src="./script.js"></script> -->
     <!-- <script type="module" src="./script.js"></script> -->
+     <script src="tabs.js"></script>
   </body>
 </html>

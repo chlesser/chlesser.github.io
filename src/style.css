@@ -200,6 +200,11 @@ section:nth-child(odd) {
 /* Style the tab content */
 .tabcontent {
   display: none;
+  animation: fadeEffect .75s; 
   padding: 6px 12px;
   border-top: 2px solid black;
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
