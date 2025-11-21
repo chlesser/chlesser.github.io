@@ -21,10 +21,12 @@ a {
   color: rgb(216, 216, 216);
   /* background: rgba(0, 0, 0, 0.8); */
   border-radius: 2em;
-  padding: 0.5em;
+  font-size: 1.25em;
+  /*padding: 0.25em; */
 }
 a {
   font-weight: 300;
+  font-size: 1em;
   color: rgb(216, 216, 216);
 }
 a:hover {
